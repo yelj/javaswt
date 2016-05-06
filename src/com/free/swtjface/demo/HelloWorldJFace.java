@@ -81,7 +81,7 @@ public class HelloWorldJFace extends ApplicationWindow {
 
 	}
 	protected static void gotoLogin() {
-		String pwd = StringUtils.getMD5Str("456789" + "gsdef");
+		String pwd = StringUtils.getMD5Str("");
 		Account   account = new Account();
 		account.setUsername("18689662551");
 		account.setPassword(pwd);
